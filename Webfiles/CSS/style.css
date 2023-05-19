@@ -1,0 +1,130 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #FFFFE0;
+}
+
+header h1 {
+  text-align: center;
+  font-size: 3rem;
+  font-family: "Open Sans", sans-serif;
+}
+header nav {
+  margin: auto;
+  max-width: 1400px;
+}
+header nav ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+header nav ul li {
+  list-style: none;
+}
+header nav ul li a {
+  color: black;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1rem;
+  padding: 20px;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+header nav ul li a:hover {
+  text-decoration: underline;
+}
+
+main {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+main h2 {
+  text-align: center;
+  text-transform: uppercase;
+  font-family: "Roboto", sans-serif;
+  font-size: 2rem;
+  padding: 5px;
+}
+main .vert {
+  padding: 10px;
+  text-align: center;
+  color: #90EE90;
+  font-family: "Montserrat", sans-serif;
+}
+main .vert:hover {
+  background-color: aquamarine;
+  color: black;
+}
+main .rouge {
+  padding: 10px;
+  text-align: center;
+  color: red;
+  font-family: "Montserrat", sans-serif;
+}
+main .rouge:hover {
+  background-color: red;
+  color: white;
+}
+main .container {
+  display: flex;
+}
+main .card {
+  padding: 2rem;
+  border: 1px solid wheat;
+  border-radius: 10px;
+  margin: 0 10px;
+}
+main .card:hover {
+  background-color: wheat;
+}
+main .card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  margin: 1.5rem 0;
+}
+main .card p {
+  padding: 5px;
+}
+main .card p .product {
+  font-size: 1rem;
+  font-family: "Montserrat", sans-serif;
+}
+main .card p .prix {
+  font-size: 1rem;
+  font-family: "Montserrat", sans-serif;
+  border: 2px solid white;
+}
+main .card button {
+  background-color: black;
+  color: white;
+  border-radius: 5px;
+  border: 2px solid black;
+  margin: 5px;
+  padding: 5px;
+}
+
+footer {
+  text-align: center;
+  margin-top: 10px;
+}
+footer h3 {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.5rem;
+  padding: 5px;
+}
+footer a {
+  color: black;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1rem;
+  padding: 20px;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+footer a:hover {
+  text-decoration: underline;
+}
+
+/*# sourceMappingURL=style.css.map */
